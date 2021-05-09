@@ -1,0 +1,15 @@
+{
+    "exclude": [
+      "./tests",
+      "./node_modules",
+      "./dist"
+    ],
+  "compilerOptions": {
+      "target": "ES2020",
+      "outDir": "./dist",
+      "rootDir": "./src",
+      //"noImplicitAny": true,
+      "strictNullChecks": true,
+      "module": "CommonJS"
+    }
+}

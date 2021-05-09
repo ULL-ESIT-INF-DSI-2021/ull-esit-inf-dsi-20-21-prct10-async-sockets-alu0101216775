@@ -1,0 +1,9 @@
+{
+    "entryPoints": [
+        "./src/Note.ts",
+        "./src/index.ts",
+        "./src/initializeYargs.ts",
+        "./src/ProgramFlowHandler.ts"
+    ],
+    "out": "./docs/typedoc"
+}
