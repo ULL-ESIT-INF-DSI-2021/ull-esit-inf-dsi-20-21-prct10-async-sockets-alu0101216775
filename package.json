@@ -1,5 +1,5 @@
 {
-    "name": "Practica-8",
+    "name": "Practica-10",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -9,7 +9,7 @@
     },
     "scripts": {
         "test": "mocha",
-        "coverage": "nyc npm test && nyc report --reporter=lcov",
+        "coverage": "nyc npm test",
         "doc": "typedoc;",
         "build": "tsc;"
     },
