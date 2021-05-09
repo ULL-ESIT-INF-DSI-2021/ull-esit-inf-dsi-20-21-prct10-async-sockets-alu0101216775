@@ -9,7 +9,7 @@
     },
     "scripts": {
         "test": "mocha",
-        "coverage": "nyc npm test",
+        "coverage": "nyc npm test && nyc report --reporter=lcov",
         "doc": "typedoc;",
         "build": "tsc;"
     },
